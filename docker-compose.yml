@@ -23,7 +23,7 @@ services:
       - ./project:/docker-entrypoint-initdb.d
 
   phpmyadmin:
-    image: phpmyadmin:latest
+    image: phpmyadmin/phpmyadmin:latest
     restart: always
     ports:
       - 8101:80
